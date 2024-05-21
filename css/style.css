@@ -1,0 +1,396 @@
+/*================-Default-==================*/
+
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter.ttf);   
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat.ttf);   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    text-decoration: none;
+    border-style: none;
+}
+
+/*================-Tags-==================*/
+
+body {
+    margin: 37px 15% 120px 15%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav button {
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 14px 16px;
+    background: #0E1734;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 80px 0px 90px 0px;
+    justify-content: space-between; 
+}
+
+footer {
+    left:0;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    margin-top: 2%;
+    position: absolute;
+    align-items: center;
+    background: #0B265A;
+    justify-content: space-around;
+}
+
+/*===============-Nav_Classes-=================*/
+
+.logo {
+    font-size: 32px;
+    color: #192252;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.links {
+    display: flex;
+    column-gap: 32px;
+}
+
+.links a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #192252;
+}
+
+/*===============-Article_Classes-=================*/
+
+.article-right {
+    width: 587px;
+}
+
+.article-norway {
+    display: flex;
+    align-items: center;
+    padding: 80px, 0px 90px 0px;
+    justify-content: space-between;
+}
+
+/*===============-Food_Classes-=================*/
+
+.food {
+    row-gap: 32px;
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+}
+
+.food-top, .food-bottom {
+    display: flex;
+    column-gap: 126px;
+    padding: 16px, 0px;
+}
+
+.food-top-info, .food-bottom-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food-top-info p, .food-bottom-info p {
+    max-width: 584px
+}
+
+/*===============-Header_Classes-=================*/
+
+.header-left {
+    width: 587px;
+}
+
+.header-left h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #192252;
+    margin-top: 21px;
+    line-height: 150%;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #848FAC;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.button {
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background: #0E1734;
+}
+
+.header-right {
+    display: flex;
+    column-gap: 24px;
+}
+
+/*===============-Rooms_Classes-=================*/
+
+.rooms {
+    row-gap: 88px;
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+}
+
+.header-2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #192252;
+    line-height: 150%;
+    padding: 24px 0px;
+}
+
+.header-3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: Montserrat;
+}
+
+.rooms-top {
+    row-gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rooms-top p {
+    max-width: 588px;
+    text-align: center;
+}
+
+.rooms-bottom {
+    display: flex;
+    column-gap: 24px;
+    flex-direction: row;
+}
+
+.rooms-bottom a {
+    display: flex;
+    column-gap: 12px;
+    color: #424F7B;
+}
+
+.rooms-card {
+    width: 384px;
+    row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*===============-Get-Rooms_Classes-=================*/
+
+.get-my-room {
+    display: flex;
+    padding: 80px 0px 80px 0px;
+    justify-content: space-between;
+}
+
+.get-my-room-left {
+    width: 407px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #424F7B;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.left-button {
+    display: flex;
+    font-size: 16px;
+    column-gap: 24px;
+    color: #0E1734;
+    align-items: center;
+}
+
+.room-box {
+    width: 588px;
+    display: flex;
+    border-radius: 4px;
+    padding: 32px 36px;
+    justify-content: space-between;
+    box-shadow: -5px 10px 50px #D6D9DD;
+}
+
+.room-box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #424F7B;
+    line-height: 36px;
+    font-family: Montserrat;
+}
+
+.marker {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #FFECE2;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.active {
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.active button {
+    background-color: #FF620A;
+}
+
+.get-my-room-right {
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*===============-Customers_Classes-=================*/
+
+.customers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 62px 0px 80px 0px;
+}
+
+.review p {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 793px;
+    color: #848FAC;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 44px 0px 40px 0px;
+}
+
+.review h3 {
+    font-size: 20px;
+    color: #192252;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    font-family: Inter;
+}
+
+.bullets {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.bullets .bullet {
+    width: 8px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 12px 6px 40px 6px;
+}
+
+.bullets .active-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    padding: 12px 6px 40px 6px;
+}
+
+
+/*===============-IDs-=================*/
+
+#center-image {
+    margin-top: 117px;
+}
+
+#slogan {
+    margin-bottom: 36px;
+}
+
+/*===============-Footer-=================*/
+
+.footer-main{
+    display: flex;
+	column-gap: 24px;
+	flex-direction: column;
+}
+
+.footer-logo{
+    font-size: 32px;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-bottom: 13px;
+    font-family: Montserrat;
+}
+
+.info-text{
+    font-size: 16px;
+    color: #D9DBDE;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.social-media {
+    display: flex;
+    max-width: 144px;
+    justify-content: space-between;
+}
+
+.info{
+	display: flex;
+    column-gap: 60px;
+	flex-direction: row;
+}
+
+
+.title{
+	font-size: 20px;
+	color: #f0f0f0;
+	font-weight: 600;
+	font-family: Montserrat;
+}
+
